@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>LED</title>
+    <style>
+        mark{
+            background-color: #ff3462;
+        }
+        body{
+            background-color: #f0d452;
+        }
+
+    </style>
+</head>
+<body>
+    <H1>Formataôes principais para o LED</H1>
+    <h2>Negrito / destaque</h2>
+     <p>Nessa frase temos um <b>temos em negrito</b> usando a tag &lt;b&gt; uma tag (não semantica).</p>
+     <p>Nessa frase temos um <strong>temo em destaque</strong> utilisando a tag &lt;strong&gt;(semantica)</p>
+     <h2>Itálico / Ênfase</h2>
+     <p>Nessa frase temos um <i>termo em itálico</i> uasndo a teg &lt;I&gt; (não semantica)</p>
+     <p>Nessa frase temos um <em>termo em ênfase</em> usando a tag &lt;EM&gt;</p>
+     <h2>Texto marcado</h2>
+     <p>Podemos criar um <mark>texto marcado</mark> usando a tag &lt;MARK&gt; </p>
+     <h2>Texto grande e pequeno</h2>
+     <p>estamos criando um <big>texto grande</big> e <small>texto pequeno</small> neste paragrafo usando as tags <br> &lt;BIG&gt; não semantica &lt;small&gt; semantica</p>
+     <h2>Texto deltado</h2>
+     <p>Podemos marcar <del>um texto como excluido</del> para indicar que deve ser lido, mas não considerado <br>utilizando a tag &lt;del&gt;(semantica)</p>
+     <h2>Texto inserido</h2>
+     <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase em algo adicionado depois <br>utilisando a tag&lt;ins&gt;</p>
+     <p>Existe tambem <U>texto sublinhado</U> com a tag &lt;U&gt; (não semantica)</p>
+     <h2>texto sobrescrito e texto subscrito</h2>
+     <p>Para inserir coisas do tipo X<sup>20</sup>+5 <br> utilisase a tag &lt;sup&gt; </p>
+     <p>Para inserir coisas do tipo H<sub>2</sub>O <br> utilisase a tag &lt;sub&gt;</p>
+     <h1>Outras formatações</h1>
+     <h2>Códgo-Fonte</h2>
+     <p>O comando <code>document.getElemetById('teste')</code> é escrito em linguaggem JavaScript.</p> 
+    <pre>
+        <code>
+            num = int(input('digite um numero'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR)
+        else:
+            print(f' O número {num} é ÍNPAR)
+        print('Fin do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um professor: <q>o computador é um burro muito rapido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo jeff noble, so seu livro Html para leigos</p>
+    <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nobis quidem laboriosam recusandae blanditiis, veniam ducimus itaque molestiae quisquam optio nesciunt inventore alias eaque quia aliquid quis distinctio, esse provident.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup">html</abbr> e <abbr title="Cascading Markup Sheets">css</abbr>, ta manerão </p>
+    <p><bdo dir="rtl"> Estou cagando pra isso</bdo></p>
+</body>
+</html>

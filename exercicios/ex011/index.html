@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img dinamicas</title>
+    <style>
+        body{
+            background-color: #f0d453;
+        }
+    </style>
+</head>
+<body>
+    <H1>Imagens dinamicas</H1>
+    <h2>Exemplo de imagem adaptaiva</h2>
+    <p><picture>
+        <source media="(max-width: 725px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto G">
+    </picture></p>
+    <h1>Reproduzindo aoudio</h1>
+    <h2>Lista de audio</h2>
+    <p>bing-chiling<audio src="audio/bing-chilling_fcdGgUc.mp3" controls preload="metadata" loop></audio></p>
+</body>
+</html>

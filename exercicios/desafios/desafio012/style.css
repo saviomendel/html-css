@@ -46,6 +46,15 @@ section.imagem > p {
     width: fit-content;
     padding-right: 10vw;
 }
+section#caixa2 {
+    background-image: url(https://coleai.com.br/wp-content/uploads/2023/06/valquiria-a-2.jpg);
+    background-position: center bottom;
+}
+section#caixa4 {
+    background-image: url(https://e0.pxfuel.com/wallpapers/887/50/desktop-wallpaper-waterfall-in-the-woods-orange-mountain-sunlight-nature-travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 footer {
     background-color: rgb(0, 0, 0);
     padding: 10px;

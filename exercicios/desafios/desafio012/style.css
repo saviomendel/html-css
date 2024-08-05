@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 body {
     min-height: 100vh;
     background-color: #F0d453;
@@ -30,8 +31,15 @@ header > p > a:hover {
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 6vw;
     padding-left: 30px;
+}
+section > p {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 5vw;
 }
 section.normal {
     background-color: white;
@@ -40,6 +48,8 @@ section.normal {
 section.imagem {
     background-color: rgb(66, 66, 66);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.548);
@@ -48,12 +58,11 @@ section.imagem > p {
 }
 section#caixa2 {
     background-image: url(https://coleai.com.br/wp-content/uploads/2023/06/valquiria-a-2.jpg);
-    background-position: center bottom;
+    
 }
 section#caixa4 {
     background-image: url(https://e0.pxfuel.com/wallpapers/887/50/desktop-wallpaper-waterfall-in-the-woods-orange-mountain-sunlight-nature-travel.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 footer {
     background-color: rgb(0, 0, 0);
